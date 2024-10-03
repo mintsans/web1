@@ -3,14 +3,57 @@
   <head>
     <meta charset="utf-8">
     <title>박효준의 신부 목록</title>
+    <style>
+      h1{
+        font-size: 45px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        padding : 30px;
+        margin: 0;
+      }
+      .center {
+        text-align: center;
+        list-style-position: inside;
+      }
+      ol{
+        /* text-align: center; */
+        border-right: 1px solid gray;
+        width: 200px;
+        margin:10px;
+        padding: 10px;
+        height: 600px
+      }
+      body{
+        margin: 0px;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        margin: 0;
+      }
+    </style>
   </head>
   <body>
-    <h1>박효준의 신부 목록</h1>
+<!--    <h1><font color="black">박효준의 신부 목록</font></h1>
     <ul>
-      <li><a href="hina.html">소라사키 히나</a></li>
-      <li><a href="rei.html">아야나미 레이</a></li>
-      <li><a href="kikuri.html">히로이 키쿠리</a></li>
+      <li><a href="hina.html"><font color = "gray">소라사키 히나</font></a></li>
+      <li><a href="rei.html"><font color = "blue">아야나미 레이</font></a></li>
+      <li><a href="kikuri.html"><font = "pink">히로이 키쿠리</font></a></li>
     </ul>
-
+-->
+    <h1>박효준의 신부 목록</h1>
+      <div id="grid">
+        <div >
+          <ol class = "center">
+            <li><a href="hina.html" >소라사키 히나</a></li>
+            <li><a href="rei.html">아야나미 레이</a></li>
+            <li><a href="kikuri.html">히로이 키쿠리</a></li>
+          </ol>
+        </div>
+        <div>
+          <strong style="color:red;">***참고***숫자는 그저 순서일 뿐 절대로 순위가 아닙니다. 이 신사는 그녀들을 대상으로 등급을 매기지 않습니다</strong><br>
+          <img src="harem.png" width="100%">
+        </div>
+      </div>
   </body>
 </html>
